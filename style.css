@@ -1,4 +1,27 @@
-body {
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #91c5cc;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #9899c9;
+}
+.link {
+  text-decoration: none;
+  color: #97aed1;
+  transition: color 0.5s;
+}
+
+.link:hover {
+  color: #9abacf;
+} 
+{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -46,27 +69,5 @@ body {
       width: 100%;
     }
   }
-  body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #000000;
-  }
-  .section-title {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #9899c9;
-  }
-  .link {
-    text-decoration: none;
-    color: #97aed1;
-    transition: color 0.5s;
-  }
-  
-  .link:hover {
-    color: #9abacf;
-  }
-  
+
+
